@@ -1,0 +1,107 @@
+/*
+ *  Written by: Adam Crownoble
+ *  Contact: adam@obledesign.com
+ *  Created: 8/14/2005
+ *  For: MODx cms (modxcms.com)
+ *  Description: Styles for the QuickEditor in the QuickEdit module
+ */
+
+*{
+font-family:arial, helvetica, sans-serif;
+border-width:1px;
+}
+
+body{
+position:absolute;
+height:100%;
+width:100%;
+margin:0;
+padding:0;
+overflow:hidden;
+font-size:10pt;
+background-color:#fff;
+}
+
+#tv_container{
+position:relative;
+margin:0;
+padding:10px;
+}
+
+#toolbar{
+height:25px;
+border-bottom-style:solid;
+border-color:#aeaeae;
+background-image:url(../images/menu_button_hover_bg.png);
+background-repeat:repeat-x;
+}
+
+#toolbar a{
+position:relative;
+display:block;
+float:left;
+height:15px;
+margin:0;
+padding:5px 10px 5px 30px;
+vertical-align:middle;
+color:#000000;
+text-decoration:none;
+border-style:none solid;
+border-left-color:#d2d2d2;
+border-right-color:#aeaeae;
+background-repeat:repeat-x;
+}
+
+#toolbar a:hover{
+background-image:url(../images/link_bg.png);
+background-color:#fff;
+}
+
+#toolbar a img{
+position:absolute;
+left:4px;
+top:0;
+border-style:none;
+}
+
+#close{
+float:right !important;
+}
+
+#info{
+position:relative;
+margin:0;
+height:18px;
+background-color:#f0f0f0;
+cursor:help;
+}
+
+#info h1{
+margin:0;
+padding:2px 0;
+text-align:center;
+font-size:8pt;
+font-weight:bold;
+}
+
+#tv_description{position:absolute;
+z-index:1000;
+margin:0;
+padding:0;
+width:100%;
+font-size:8pt;
+font-weight:normal;
+text-align:left;
+background-color:#f0f0f0;
+}
+
+#tv_description div{
+position:relative;
+z-index:1001;
+margin:10px;
+}
+
+/* --- TV TYPE STYLES --- */
+.richtext{
+width:625px;
+}
